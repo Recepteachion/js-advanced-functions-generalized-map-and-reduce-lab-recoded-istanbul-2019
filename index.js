@@ -1,13 +1,13 @@
 // Add your functions here
-function map(src){
-  let r = [];
+// function map(src){
+//   let r = [];
   
-  for (let i=0;i <src.length;i++){
-    r.push(src[i]*-1)
+//   for (let i=0;i <src.length;i++){
+//     r.push(src[i]*-1)
     
-  }
-  return r
-}
+//   }
+//   return r
+// }
 
 
 function map(src){
