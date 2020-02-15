@@ -1,12 +1,10 @@
 // Add your functions here
-let newMapNegative= function(src,function(){
+function map(src){
   let r = [];
-  for (let i=0;i<src.length;i++){
-      r.push(-1*src[i])
-    }
-    return r
-  
-})
+  for (let i=0;i <src.length;i++){
+    r.push(src[i]*-1)
+  }
+}
 
 
 // fnc = function(src){
