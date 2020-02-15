@@ -11,7 +11,7 @@ function map(src){
 function map(src){
   let ra = [];
   for (let i=0;i<src.length;i++){
-      ra.push(src[i])
+      ra.push(src[i]*2)
     }
     return ra
   
