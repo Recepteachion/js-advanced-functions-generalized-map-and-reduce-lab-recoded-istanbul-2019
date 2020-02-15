@@ -1,5 +1,5 @@
 // Add your functions here
-function mapToNegative(src){
+function map(src){
   let r = [];
   for (let i=0;i <src.length;i++){
     r.push(src[i]*-1)
@@ -8,7 +8,7 @@ function mapToNegative(src){
 }
 
 
-function mapToSame(src){
+function map(src){
   let ra = [];
   for (let i=0;i<src.length;i++){
       ra.push(src[i])
