@@ -4,6 +4,7 @@ function map(src){
   for (let i=0;i <src.length;i++){
     r.push(src[i]*-1)
   }
+  return r
 }
 
 
