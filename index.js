@@ -17,7 +17,7 @@ function reduce(src,fn,ind){
     ind =0
     
     for (let i=0;i<src.length;i++){
-      sum = fn(src[i])
+      sum = fn(src[i],ind)
     
     }}
     else{
