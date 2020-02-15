@@ -21,6 +21,7 @@ function reduce(src,fn,ind){
     
     }}
     else{
+      ind=ind
       for (let i=0;i<src.length;i++){
         sum = fn(src[i],ind)
     
