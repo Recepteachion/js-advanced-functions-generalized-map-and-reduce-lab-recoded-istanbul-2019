@@ -1,10 +1,10 @@
 // Add your functions here
-function map(src){
+function map(src,fn){
   let r = [];
   // let ra = [];
   for (let i=0;i <src.length;i++){
-    r.push(src[i]*-1)
-    ra.push(src[i]*-1)
+    r.push(fn(src))
+    
   }
   return (r)
 }
