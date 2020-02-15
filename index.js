@@ -1,23 +1,23 @@
 // Add your functions here
 function mapToNegativize(src){
   let r = [];
-  let ra=[]
+  
   for (let i=0;i <src.length;i++){
     r.push(src[i]*-1)
-    ra.push(src[i]*2)
+    
   }
-  return r,ra
+  return r
 }
 
 
-// function map(src){
-//   let ra = [];
-//   for (let i=0;i<src.length;i++){
-//       ra.push(src[i]*2)
-//     }
-//     return ra
+function mapToNoChange(src){
+  let ra = [];
+  for (let i=0;i<src.length;i++){
+      ra.push(src[i]*2)
+    }
+    return ra
   
-// }
+}
 
 // newMapNegative([1,2,3,4,5],fn)
 
