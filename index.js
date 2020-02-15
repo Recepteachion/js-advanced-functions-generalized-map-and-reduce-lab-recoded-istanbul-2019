@@ -15,10 +15,14 @@ function reduce(src,fn,ind){
   let sum=0;
   if (ind===undefined){
     ind =0
-    sum =fn(src[i])
-  }
-  else{
-    sum =fn(src[i])+src[ind]
+    
+    for (let i=0;i<src.length;i++){
+      sum = fn(src[i],ind)
+    
+    }
+    else{
+      
+    sum =fn(src[i],ind)
   }
   
   
