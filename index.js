@@ -3,7 +3,7 @@ function map(src,fn){
   let r = [];
   // let ra = [];
   for (let i=0;i <src.length;i++){
-    r.push(fn(src))
+    r.push(fn(src[i]))
     
   }
   return (r)
