@@ -6,7 +6,7 @@ function map(src){
     r.push(src[i]*-1)
     ra.push(src[i]*2)
   }
-  return r
+  return r,ra
 }
 
 
