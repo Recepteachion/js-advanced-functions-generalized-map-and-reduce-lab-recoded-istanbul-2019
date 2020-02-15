@@ -17,42 +17,42 @@ function map(src){
   
 // }
 
-newMapNegative([1,2,3,4,5],fn)
+// newMapNegative([1,2,3,4,5],fn)
 
-// console.log(newMap([1,2,4]))
-function newMapOr(src,fn){
-  let r = [];
-  fn = function(){
-    for (let i=0;i<src.length;i++){
-      r.push(src[i])
-    }
-    return r
-  }
+// // console.log(newMap([1,2,4]))
+// function newMapOr(src,fn){
+//   let r = [];
+//   fn = function(){
+//     for (let i=0;i<src.length;i++){
+//       r.push(src[i])
+//     }
+//     return r
+//   }
   
-  return fn()
-}
+//   return fn()
+// }
 
 
-function newMapTwo(src,fn){
-  let r = [];
-  fn = function(){
-    for (let i=0;i<src.length;i++){
-      r.push(2*src[i])
-    }
-    return r
-  }
+// function newMapTwo(src,fn){
+//   let r = [];
+//   fn = function(){
+//     for (let i=0;i<src.length;i++){
+//       r.push(2*src[i])
+//     }
+//     return r
+//   }
   
-  return fn()
-}
+//   return fn()
+// }
 
-function newMapTwo(src,fn){
-  let r = [];
-  fn = function(){
-    for (let i=0;i<src.length;i++){
-      r.push(src[i]*src[i])
-    }
-    return r
-  }
+// function newMapTwo(src,fn){
+//   let r = [];
+//   fn = function(){
+//     for (let i=0;i<src.length;i++){
+//       r.push(src[i]*src[i])
+//     }
+//     return r
+//   }
   
-  return fn()
-}
+//   return fn()
+// }
