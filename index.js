@@ -1,5 +1,5 @@
 // Add your functions here
-function map(src){
+function mapToNegativize(src){
   let r = [];
   let ra=[]
   for (let i=0;i <src.length;i++){
