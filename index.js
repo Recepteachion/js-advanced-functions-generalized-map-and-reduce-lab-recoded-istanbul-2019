@@ -8,12 +8,12 @@ function map(src){
 }
 
 
-// fnc = function(src){
-//   let r = [];
-//   for (let i=0;i<src.length;i++){
-//       r.push(-1*src[i])
-//     }
-//     return r
+fnc = function(src){
+  let r = [];
+  for (let i=0;i<src.length;i++){
+      r.push(-1*src[i])
+    }
+    return r
   
 // }
 
