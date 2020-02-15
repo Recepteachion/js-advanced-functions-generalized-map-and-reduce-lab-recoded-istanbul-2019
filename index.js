@@ -1,5 +1,5 @@
 // Add your functions here
-function mapToNegativize(src){
+function map(src){
   let r = [];
   
   for (let i=0;i <src.length;i++){
@@ -10,7 +10,7 @@ function mapToNegativize(src){
 }
 
 
-function mapToNoChange(src){
+function map(src){
   let ra = [];
   for (let i=0;i<src.length;i++){
       ra.push(src[i]*2)
