@@ -11,11 +11,11 @@ function mapToNegative(src){
 function mapToSame(src){
   let r = [];
   for (let i=0;i<src.length;i++){
-      r.push(-1*src[i])
+      r.push(src[i])
     }
     return r
   
-// }
+ }
 
 newMapNegative([1,2,3,4,5],fn)
 
