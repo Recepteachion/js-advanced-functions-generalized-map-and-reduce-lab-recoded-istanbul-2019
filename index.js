@@ -13,7 +13,7 @@ function map(src,fn){
 function reduce(src,fn,ind){
   let ra = [];
   let sum=0;
-  if (ind===undefined){
+  if (ind!==undefined){
     ind =0
     
     for (let i=0;i<src.length;i++){
