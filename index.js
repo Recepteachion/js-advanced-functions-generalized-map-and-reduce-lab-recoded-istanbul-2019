@@ -19,17 +19,12 @@ function reduce(src,fn,ind){
     for (let i=0;i<src.length;i++){
       sum = fn(src[i],ind)
     
-    }
+    }}
     else{
-      
-    sum =fn(src[i],ind)
-  }
-  
-  
-  for (let i=0;i<src.length;i++){
-    sum += fn(src[i])
+      for (let i=0;i<src.length;i++){
+        sum = fn(src[i],ind)
     
-    }
+  } }
     return sum
   
 }
