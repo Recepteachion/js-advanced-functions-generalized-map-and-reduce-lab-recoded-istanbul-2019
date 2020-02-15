@@ -10,12 +10,14 @@ function map(src,fn){
 }
 
 
-function reduce(src){
+function reduce(src,fn,ind){
   let ra = [];
+  let sum=0;
   for (let i=0;i<src.length;i++){
-      ra.push(src[i]*2)
+    sum += fn(src[i])
+    
     }
-    return ra
+    return sum
   
 }
 
