@@ -1,5 +1,5 @@
 // Add your functions here
-function map(src){
+function map0(src){
   let r = [];
   for (let i=0;i <src.length;i++){
     r.push(src[i]*-1)
@@ -8,7 +8,7 @@ function map(src){
 }
 
 
-function map(src){
+function map1(src){
   let ra = [];
   for (let i=0;i<src.length;i++){
       ra.push(src[i]*2)
