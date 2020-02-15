@@ -1,23 +1,23 @@
 // Add your functions here
-// function map(src){
-//   let r = [];
-  
-//   for (let i=0;i <src.length;i++){
-//     r.push(src[i]*-1)
-    
-//   }
-//   return r
-// }
-
-
 function map(src){
-  let ra = [];
-  for (let i=0;i<src.length;i++){
-      ra.push(src[i]*2)
-    }
-    return ra
+  let r = [];
   
+  for (let i=0;i <src.length;i++){
+    r.push(src[i]*-1)
+    
+  }
+  return r
 }
+
+
+// function map(src){
+//   let ra = [];
+//   for (let i=0;i<src.length;i++){
+//       ra.push(src[i]*2)
+//     }
+//     return ra
+  
+// }
 
 // newMapNegative([1,2,3,4,5],fn)
 
