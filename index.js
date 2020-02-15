@@ -14,6 +14,7 @@ function reduce(src,fn,ind){
   let ra = [];
   let sum=0;
   if (ind===undefined){
+    ind =0
     sum =fn(src[i])
   }
   else{
@@ -21,10 +22,10 @@ function reduce(src,fn,ind){
   }
   
   
-  // for (let i=0;i<src.length;i++){
-  //   sum += fn(src[i])
+  for (let i=0;i<src.length;i++){
+    sum += fn(src[i])
     
-  //   }
+    }
     return sum
   
 }
