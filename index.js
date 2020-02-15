@@ -14,10 +14,10 @@ function reduce(src,fn,ind){
   let ra = [];
   let sum=0;
   if (ind===undefined){
-    sum +=fn(src[i])
+    sum =fn(src[i])
   }
   else{
-    sum +=fn(src[i])+src[ind]
+    sum =fn(src[i])+src[ind]
   }
   
   
